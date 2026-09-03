@@ -1,0 +1,11 @@
+        " id          INTEGER PRIMARY KEY,"
+        " dst_uid     TEXT NOT NULL,"
+        " src_uid     TEXT NOT NULL,"
+        " msg_id      INTEGER NOT NULL,"
+        " ttl         INTEGER NOT NULL,"
+        " payload     BLOB NOT NULL,"
+        " payload_len INTEGER NOT NULL,"
+        " ttl_expires INTEGER NOT NULL,"
+        " created_at  INTEGER NOT NULL);"
+
+
